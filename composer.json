@@ -1,0 +1,16 @@
+{
+    "name": "rafael/user-api",
+    "description": "A RESTful CRUD API for managing users in pure PHP 8.4, following SOLID principles.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael",
+            "email": "34974103+RafaelJP13@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
