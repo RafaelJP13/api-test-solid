@@ -39,3 +39,4 @@ git clone https://github.com/RafaelJP13/user-api-solid.git
 Move to something like this: C:/xampp/htdocs/user-apis
 cd C:/xampp/htdocs/myapi
 composer install
+http://localhost/myapi/public
