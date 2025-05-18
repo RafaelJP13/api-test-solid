@@ -1,11 +1,12 @@
 <?php
-namespace Interfaces;
+namespace Src\Interfaces;
 
-interface UserRepositoryInterface
-{
-    function create(array $data): array;
-    function read(string $id): ?array;
-    function update(string $id, array $data): ?array;
-    function delete(string $id): bool;
-    function listAll(): array;
+use Src\Models\User;
+
+interface UserRepositoryInterface {
+    public function getAll(): array;
+    public function getById(int $id): ?User;
+    public function create(User $user): bool;
+    public function update(User $user): bool;
+    public function delete(int $id): bool;
 }
