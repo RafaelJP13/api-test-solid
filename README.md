@@ -24,8 +24,18 @@ Features clean architecture, PSR-4 autoloading, and JSON-based endpoints for cre
 
 ---
 
-## Setup
+## ✅ Project Setup
 
-1. Clone the repository to `xampp/htdocs/myapi`:
-   ```bash
-   git clone https://github.com/yourusername/yourrepo.git xampp/htdocs/myapi
+Follow these steps to run the project locally using XAMPP:
+
+---
+
+### 1. Clone the repository
+
+Open your terminal (CMD, Git Bash, or PowerShell) and run:
+
+```bash
+git clone https://github.com/RafaelJP13/user-api-solid.git
+Move to something like this: C:/xampp/htdocs/user-apis
+cd C:/xampp/htdocs/myapi
+composer install
