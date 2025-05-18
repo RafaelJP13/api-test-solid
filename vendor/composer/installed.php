@@ -3,7 +3,7 @@
         'name' => 'rafael/user-api',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2a1c0dd40f56b3e4d1749e90028a71267e7288ee',
+        'reference' => '00b1af05bea8b4cca45527a99c813ec396d8c1e1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'rafael/user-api' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2a1c0dd40f56b3e4d1749e90028a71267e7288ee',
+            'reference' => '00b1af05bea8b4cca45527a99c813ec396d8c1e1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
